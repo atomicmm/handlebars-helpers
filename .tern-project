@@ -1,0 +1,13 @@
+{
+    "libs": [
+        "browser",
+        "ecma6",
+        "jquery",
+        "underscore"
+    ],
+    "plugins": {
+        "node": {},
+        "commonjs":{},
+        "node_resolve":{}
+    }
+}
