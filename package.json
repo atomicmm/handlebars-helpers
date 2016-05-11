@@ -1,0 +1,23 @@
+{
+  "name": "handlebars-helpers",
+  "version": "1.0.0",
+  "description": "simple handlebars-helper collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomicmm/handlebars-helpers.git"
+  },
+  "keywords": [
+    "handlebars",
+    "helper"
+  ],
+  "author": "atomicmm@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atomicmm/handlebars-helpers/issues"
+  },
+  "homepage": "https://github.com/atomicmm/handlebars-helpers#readme"
+}
