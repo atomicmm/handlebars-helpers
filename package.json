@@ -1,5 +1,5 @@
 {
-  "name": "handlebars-helpers",
+  "name": "simple-handlebars-helpers",
   "version": "1.0.0",
   "description": "simple handlebars-helper collection",
   "main": "lib/exporter.js",
