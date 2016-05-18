@@ -1,6 +1,6 @@
 {
   "name": "simple-handlebars-helpers",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "simple handlebars-helper collection",
   "main": "lib/exporter.js",
   "scripts": {
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "handlebars": "^4.0.5",
     "mocha": "^2.4.5"
   }
 }
