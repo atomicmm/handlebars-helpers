@@ -8,6 +8,8 @@ describe('Main Test', () => {
             const now = new Date();
             console.log(helpers.formatDate(now,'YYYY-MM-DD'));
             console.log(helpers.now('YYYY-MM-DD'));
+            console.log(helpers.formatDate(now));
+            console.log(helpers.now());
         });
     });
 });
