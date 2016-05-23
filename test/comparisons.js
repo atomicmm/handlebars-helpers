@@ -5,8 +5,6 @@ const helpers = require('../lib/exporter');
 describe('Main Test', () => {
     describe('#comparisons', () => {
         it('', () => {
-
-
         });
     });
 });
