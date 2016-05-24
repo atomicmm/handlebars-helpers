@@ -7,7 +7,7 @@ describe('Main Test', () => {
     handlebars.registerHelper(helpers);
 
     describe('#date', () => {
-        it('', () => {
+        it('format', () => {
             const context = {
                 now: new Date()
             };
@@ -15,6 +15,13 @@ describe('Main Test', () => {
             const tmpDate1 = handlebars.compile('{{now}}');
             console.log(tmpDate(context))
             console.log(tmpDate1(context))
+        });
+        it('nowBetween', () => {
+            const begin ='1753-01-01T00:00:00';
+            const end ='1753-01-01T00:00:00';
+            const tmpl = handlebars.compile('{{#ifNowBetween begin end}}A{{/ifNowBetween}}')
+
+            console.log(tmpl())
         });
     });
 });
