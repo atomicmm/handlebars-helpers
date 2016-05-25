@@ -23,5 +23,10 @@ describe('Main Test', () => {
 
             console.log(tmpl())
         });
+        it('addDate',() =>{
+            const tmpl = handlebars.compile('{{addDateFromNow 7 "days"}}')
+
+            console.log(tmpl())
+        });
     });
 });
